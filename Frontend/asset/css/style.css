@@ -17,10 +17,11 @@ body {
 .menu_left{
     height: 817px;
     background-color: #0F0D18;
-
+    z-index: 9998;
 }
 .menu_left_nav{
     position: fixed;
+
 }
 .img_logo img{
     width:304px;
@@ -109,6 +110,7 @@ body {
     background-color: #0F0D18;
     position: fixed;
     width: 1215.35px;
+    z-index: 9999;
 }
 .nav_right-header{
     padding-top: 20px;
@@ -217,3 +219,41 @@ body {
 
 }
 
+
+.form-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.form-group-list{
+    display: flex;
+}
+.form-group-list-item{
+    width: 400px;
+
+}
+.form-input-width{
+    width: 100% !important;
+}
+.img-product{
+    margin-top: 20px;
+    border: 1px solid #333;
+    margin-bottom: 14px;
+}
+.img-product img{
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+}
+.btn-cancel button{
+    padding: 10px 16px;
+    background-color: #8d1d10;
+    color: #ffffff;
+    border: none;
+}
+.btn-confirma button{
+    padding: 10px 16px;
+    background-color: #80BB35;
+    color: #ffffff;
+    border: none;
+}

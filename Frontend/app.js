@@ -1,3 +1,5 @@
+
+
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
@@ -22,17 +24,6 @@ menu_nav.forEach((item,index) => {
 
 //xem mat khau
 
-$(document).ready(function(){
-    $('#eye').click(function(){
-        $(this).toggleClass('open');
-        $(this).children('i').toggleClass('fa-eye-slash fa-eye');
-        if($(this).hasClass('open')){
-            $(this).prev().attr('type', 'text');
-        }else{
-            $(this).prev().attr('type', 'password');
-        }
-    });
-});
 
 
 function signup(e){

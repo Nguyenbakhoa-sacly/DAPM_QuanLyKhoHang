@@ -54,12 +54,16 @@
 .text_bold{
     font-weight: 600;
 }
-.left{
-    padding-right: 12px;
+.m-right{
+    margin-right: 30px;
+}
+.m-bottom{
+    margin-bottom: 20px;
 }
 .distance{
     margin-right: 20px;
 }
+
 .border_bottom{
     border-bottom: 1px solid #848987;
 }
@@ -70,7 +74,6 @@
 }
 
 .btn-confirm{
-    background-color: #f3f7fe;
     color:#ffffff;
     border: none;
     border-radius: 8px;
@@ -81,7 +84,6 @@
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
-    margin-left: 1000px;
 }
 .btn-confirm:hover {
     box-shadow: 0 0 0 3px #444345;
