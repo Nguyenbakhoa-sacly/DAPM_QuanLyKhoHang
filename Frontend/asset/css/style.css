@@ -6,26 +6,74 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 .contain{
-    display: flex;
-    width: 100%;
-}
-.menu{
-    width: 20%;
 
 }
-.menu_left{
-    height: 817px;
+
+.nav_right{
     background-color: #0F0D18;
-    z-index: 9998;
-}
-.menu_left_nav{
     position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.nav_right-header{
 
+    display: flex;
+    justify-content: space-evenly;
 }
 .img_logo img{
-    width:304px;
+    width:300px;
     padding: 15px;
+}
+.search-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    width: 600px !important;
+}
+.notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notification i{
+    font-size: 20px;
+    color: var(--bs-orange);
+
+}
+.icon_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_user i{
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 8px;
+}
+.icon_user span{
+    color: #ffffff;
+}
+
+.wrapper{
+    display: flex;
+    margin-top: 93.95px;
+}
+.menu{
+}
+
+.menu_left{
+    height: 1000px;
+    background-color: #0F0D18;
+    position: fixed;
+    width: 20%;
+    left: 0;
 }
 
 .menu_left_nav_list{
@@ -84,7 +132,7 @@ body {
 }
 
 .icon_logout {
-    margin-top: 100px;
+    margin-top: 10px;
     margin-left: 30px;
     width: 40px;
     height: 40px;
@@ -102,60 +150,13 @@ body {
     padding: 10px;
 
 }
-.contain_right{
-    width: 80%;
-}
-
-.nav_right{
-    background-color: #0F0D18;
-    position: fixed;
-    width: 1215.35px;
-    z-index: 9999;
-}
-.nav_right-header{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.form-control{
-    width: 600px !important;
-}
-.notification{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.notification i{
-    font-size: 20px;
-    color: var(--bs-orange);
-    padding-right: 10px;
-
-}
-.icon_user{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
-}
-
-
-.icon_user i{
-    font-size: 30px;
-    color: #ffffff;
-    padding-right: 8px;
-}
-.icon_user span{
-    color: #ffffff;
-}
-
 .content{
-    margin-top: 100px;
+    margin-left: 20%;
+    flex: 1;
 }
+
 .content_tab-list{
     margin: 10px;
-
 }
 
 .content_tab-list-item{

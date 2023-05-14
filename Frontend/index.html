@@ -15,59 +15,59 @@
 </head>
 <body>
     <div class="contain">
-        <div class="menu">
-            <div class="menu_left">
-                <div class="menu_left_nav">
-                    <div class="img_logo">
-                        <img src="./asset/img/logo.png" alt="">
-                    </div>
-                    <div class="">
-                        <ul class="menu_left_nav_list">
-                            <!-- <li class="menu_left_nav_list-item "><i class="fa-solid fa-house"></i> Home</li> -->
-                            <li  class=" menu_nav menu_left_nav_list-item action"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách hàng hóa</li>
-                            <li  class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách nhập hàng</li>
-                            <li  class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách xuất hàng</li>
-                            <li  class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách hàng trả về</li>
-                            <li  class=" menu_left_nav_list-item"><i class="fa-solid fa-calendar"></i>Lịch sử xuất/ Nhập hàng
-                                <span class="icon_drop_right">
-                                    <i class="fa-solid fa-chevron-right"></i>
-                                </span>
-                                <ul class="sub_menu">
-                                    <li class=" menu_nav sub_menu-item border_bottom "><a class="" href="#">Xuất hàng</a></li>
-                                    <li class=" menu_nav sub_menu-item"><a class="" href="#">Nhập hàng</a></li>
-                                </ul>
-                            </li>
-                            <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Hàng tồn kho</li>
-                            <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Xác nhận trả hàng</li>
-                            <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Đề xuất trả hàng</li>
-                            
-                            <li class="icon_logout">
-                                <i class="fa-solid fa-right-from-bracket"></i>
-                            </li>
-                        </ul>
-                    </div>
+        <div class=" nav_right">
+            <div class=" nav_right-header">
+                <div class="img_logo">
+                    <img src="./asset/img/logo-1.png" alt="">
                 </div>
+                <div class="search-header ">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 p" type="search" placeholder="Search..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class=" notification">
+                    <i class="fa-sharp fa-solid fa-bell"></i>
+                </div>
+                <div class=" icon_user" >
+                    <i class="fa-solid fa-user"></i>
+                    <span class="info">Nhân viên A</span>
+                </div>
+            
             </div>
         </div>
-        <div class="contain_right">
-            <div class=" nav_right">
-                <div class=" nav_right-header">
-                    <div class=" ">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2 p" type="search" placeholder="Search..." aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+
+        <div class="wrapper">
+            <div class="menu">
+                <div class="menu_left">
+                    <div class="menu_left_nav">
+                        <div class="">
+                            <ul class="menu_left_nav_list">
+                                <li  class=" menu_nav menu_left_nav_list-item action"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách hàng hóa</li>
+                                <li  class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách nhập hàng</li>
+                                <li  class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách xuất hàng</li>
+                                <li  class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Danh sách hàng trả về</li>
+                                <li  class=" menu_left_nav_list-item"><i class="fa-solid fa-calendar"></i>Lịch sử
+                                    <span class="icon_drop_right">
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </span>
+                                    <ul class="sub_menu">
+                                        <li class=" menu_nav sub_menu-item border_bottom "><a class="" href="#">Xuất hàng</a></li>
+                                        <li class=" menu_nav sub_menu-item"><a class="" href="#">Nhập hàng</a></li>
+                                    </ul>
+                                </li>
+                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Hàng tồn kho</li>
+                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Xác nhận trả hàng</li>
+                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Đề xuất trả hàng</li>
+                                
+                                <li class="icon_logout">
+                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="   notification">
-                        <i class="fa-sharp fa-solid fa-bell"></i>
-                    </div>
-                    <div class=" icon_user" >
-                        <i class="fa-solid fa-user"></i>
-                        <span class="info">Nhân viên A</span>
-                    </div>
-                
                 </div>
-            </div>
+            </div> 
             <div class="content">
                 <div class="content_tab-list">
                     <!-- danh sach hang hoa -->
@@ -843,7 +843,7 @@
                                     <td>300</td>
                                     <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
                                 </tr>
-
+    
                                 <tr>
                                     <th scope="row">H001</th>
                                     <td>Bột giặt Omo</td>
@@ -861,7 +861,7 @@
                                     <td>300</td>
                                     <td class="content_table-list-item"><a href="#">xem chi tiết</a></td>
                                 </tr>
-
+    
                                 
                             </tbody>
                         </table>
@@ -995,10 +995,10 @@
                                             </div>
                                         </td>
                                     </tr>
-
+    
                                 </tbody>
                             </table>
-
+    
                         </div>
                     </div>
                     <!-- Đề xuất trả hàng -->
@@ -1040,9 +1040,9 @@
                                         </div>
                                     </form>
                                     <button class="btn-confirm">Làm mới</button>
-
+    
                                     <button class="btn-confirm">Đề xuất</button>
-
+    
                                 </div>
                                 <div class="">
                                     <label for="validationDefault01" class="form-label">Hình ảnh</label>
@@ -1050,7 +1050,7 @@
                                         <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
                                     </div>
                                     
-                                   
+                                    
                                 
                                 </div>
                             </div>
@@ -1138,10 +1138,10 @@
                                             </div>
                                         </td>
                                     </tr>
-
+    
                                 </tbody>
                             </table>
-
+    
                         </div>
                     </div>
                 </div>
