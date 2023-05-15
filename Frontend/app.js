@@ -4,6 +4,7 @@ const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 
 const menu_nav = $$('.menu_nav');
+
 const content_tab_list_item = $$('.content_tab-list-item');
 
 menu_nav.forEach((item,index) => {
@@ -16,14 +17,10 @@ menu_nav.forEach((item,index) => {
 
         this.classList.add('action');
         tab.classList.add('action');
-        console.log(tab)
+
     }
 
 });
-
-
-//xem mat khau
-
 
 
 function signup(e){

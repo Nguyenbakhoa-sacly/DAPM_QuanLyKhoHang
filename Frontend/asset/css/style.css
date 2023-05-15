@@ -88,6 +88,7 @@ body {
     padding-left: 30px;
     color: var(--bs-white);
     position: relative;
+    transition:0.4s;
 }
 .sub_menu{
     position: absolute;
@@ -232,6 +233,7 @@ body {
 .form-group-list-item{
     width: 400px;
 
+
 }
 .form-input-width{
     width: 100% !important;
@@ -255,13 +257,24 @@ body {
 .btn-confirma{
     margin-right: 6px;
 }
+
 .btn-confirma button{
     padding: 10px 16px;
     background-color: #80BB35;
     color: #ffffff;
     border: none;
 }
+.btn-unconfimred{
+    margin-right: 6px;
+}
 
+
+.btn-unconfimred button{
+    padding: 10px 16px;
+    background-color: var(--bs-gray-700);
+    color: #ffffff;
+    border: none;
+}
 .scrollbar {
     background-color: #F5F5F5;
     height: 450px;
