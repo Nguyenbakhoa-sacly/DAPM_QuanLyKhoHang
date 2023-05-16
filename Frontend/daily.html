@@ -31,7 +31,7 @@
                 </div>
                 <div class=" icon_user" >
                     <i class="fa-solid fa-user"></i>
-                    <span class="info">Quản lý A</span>
+                    <span class="info">Đại lý A</span>
                 </div>
             
             </div>
@@ -43,10 +43,10 @@
                     <div class="menu_left_nav">
                         <div class="">
                             <ul class="menu_left_nav_list">
-                                <li  class=" menu_nav menu_left_nav_list-item action"> <i class="fa-sharp fa-solid fa-clipboard-list"></i>Duyệt đơn đặt hàng</li>
-                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i>Danh sách trả hàng</li>
-                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Duyệt trả hàng</li>
-                                
+                                <li  class=" menu_nav menu_left_nav_list-item action"> <i class="fa-sharp fa-solid fa-clipboard-list"></i>Đặt hàng</li>
+                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i>Đánh giá sản phẩm</li>
+                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Cập nhật thông tin</li>
+                                <li class=" menu_nav menu_left_nav_list-item"> <i class="fa-sharp fa-solid fa-clipboard-list"></i> Yêu cầu trả hàng</li>
                                 <li class="icon_logout">
                                     <i class="fa-solid fa-right-from-bracket"></i>
                                 </li>
@@ -57,146 +57,121 @@
             </div> 
             <div class="content">
                 <div class="content_tab-list">
-                    <!-- Duyệt đơn đặt hàng -->
+                    <!-- Đặt hàng -->
                     <div class="content_tab-list-item action ">
-                        <div class="content-header">
-                            <h4>Duyệt đơn đặt hàng</h4>
+                        <div class="content_tab-list-input ">
+
+                            <div class="form-group">
+                                <div>
+                                    <form class="">
+                                        <div class="form-group-list m-bottom">
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">Tên sản phẩm</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập tên..." required>
+                                            </div>
+                                            <div class="form-group-list-item m-right ">
+                                                <label for="validationDefault01" class="form-label">Mã sản phảm</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã sản phẩm..." required>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="form-group-list m-bottom">
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">Số lượng</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập số lượng..." required>
+                                            </div>
+                                            <div class="form-group-list-item m-right ">
+                                                <label for="validationDefault01" class="form-label">Ghi chú</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập ghi chú..." required>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                                <div class="">
+                                    <label for="validationDefault01" class="form-label">Hình ảnh</label>
+                                    <div class="img-product">
+                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="btn-confirma">
+                                <button >Đặt hàng</button>
+                            </div>
                         </div>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">MDH</th>
-                                    <th scope="col">HÌNH ẢNH</th>
-                                    <th scope="col">TÊN HÀNG</th>
-                                    <th scope="col">MÃ SẢN PHẨM</th>
-                                    <th scope="col">NGÀY ĐẶT</th>
-                                    <th scope="col">MÃ DL</th>
-                                    <th scope="col">SỐ LƯỢNG</th>
-                                    <th scope="col">ĐƠN GIÁ(VNG)</th>
-                                    <th scope="col">TRẠNG THÁI</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">MDH001</th>
-                                    <td class="content_table-list-item">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                                    </td>
-                                    <td>Bột giặt Omo</td>
-                                    <td>H001</td>
-                                    <td>20/04/2023</td>
-                                    <td>987654321</td>
-                                    <td>3000</td>
-                                    <td>3.000.000</td>
-
-                                    <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
-                                    </td>
-                                    <!-- <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
-                                    </td> -->
-                                </tr>
-                                <tr>
-                                    <th scope="row">MDH001</th>
-                                    <td class="content_table-list-item">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                                    </td>
-                                    <td>Bột giặt Omo</td>
-                                    <td>H001</td>
-                                    <td>20/04/2023</td>
-                                    <td>987654321</td>
-                                    <td>3000</td>
-                                    <td>3.000.000</td>
-
-                                    <!-- <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
-                                    </td> -->
-                                    <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">MDH001</th>
-                                    <td class="content_table-list-item">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                                    </td>
-                                    <td>Bột giặt Omo</td>
-                                    <td>H001</td>
-                                    <td>20/04/2023</td>
-                                    <td>987654321</td>
-                                    <td>3000</td>
-                                    <td>3.000.000</td>
-
-                                    <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
-                                    </td>
-                                    <!-- <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
-                                    </td> -->
-                                </tr>
-                                <tr>
-                                    <th scope="row">MDH001</th>
-                                    <td class="content_table-list-item">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                                    </td>
-                                    <td>Bột giặt Omo</td>
-                                    <td>H001</td>
-                                    <td>20/04/2023</td>
-                                    <td>987654321</td>
-                                    <td>3000</td>
-                                    <td>3.000.000</td>
-
-                                    <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
-                                    </td>
-                                    <!-- <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
-                                    </td> -->
-                                </tr>
-                                <tr>
-                                    <th scope="row">MDH001</th>
-                                    <td class="content_table-list-item">
-                                        <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
-                                    </td>
-                                    <td>Bột giặt Omo</td>
-                                    <td>H001</td>
-                                    <td>20/04/2023</td>
-                                    <td>987654321</td>
-                                    <td>3000</td>
-                                    <td>3.000.000</td>
-
-                                    <!-- <td>
-                                        <div class="btn-confirma btn-unconfimred">
-                                            <button >Xác nhận</button>
-                                        </div>
-                                    </td> -->
-                                    <td>
-                                        <div class="btn-confirma">
-                                            <button >Đã xác nhận</button>
-                                        </div>
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
+                        <div class="scrollbar" id="style-1">
+                            <table class="table scroll_table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">MÃ SẢN PHẨM</th>
+                                        <th scope="col">TÊN SẢN PHẨM</th>
+                                        <th scope="col">HÌNH ẢNH</th>
+                                        <th scope="col">SỐ LƯỢNG</th>
+                                        <th scope="col">GHI CHÚ</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>H001</td>
+                                        <td>Bột giặt Omo</td>
+                                        <td class="content_table-list-item">
+                                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                        </td>
+                                        <td>3000</td>
+                                        <td>Hàng loại 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>H001</td>
+                                        <td>Bột giặt Omo</td>
+                                        <td class="content_table-list-item">
+                                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                        </td>
+                                        <td>3000</td>
+                                        <td>Hàng loại 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>H001</td>
+                                        <td>Bột giặt Omo</td>
+                                        <td class="content_table-list-item">
+                                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                        </td>
+                                        <td>3000</td>
+                                        <td>Hàng loại 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>H001</td>
+                                        <td>Bột giặt Omo</td>
+                                        <td class="content_table-list-item">
+                                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                        </td>
+                                        <td>3000</td>
+                                        <td>Hàng loại 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>H001</td>
+                                        <td>Bột giặt Omo</td>
+                                        <td class="content_table-list-item">
+                                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                        </td>
+                                        <td>3000</td>
+                                        <td>Hàng loại 1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>H001</td>
+                                        <td>Bột giặt Omo</td>
+                                        <td class="content_table-list-item">
+                                            <img src="https://bizweb.dktcdn.net/100/418/539/products/bot-giat-omo-he-bot-thong-minh-6kg-202106221712071149.jpg?v=1656038121737" alt="">
+                                        </td>
+                                        <td>3000</td>
+                                        <td>Hàng loại 1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <!-- Danh sách trả hàng -->
+                    <!-- Đánh giá sản phẩm-->
                     <div class="content_tab-list-item ">
                         <div class="content-header">
                             <h4>Danh sách yêu cầu trả hàng</h4>
@@ -220,7 +195,57 @@
                             </tbody>
                         </table>
                     </div>
-                    <!-- Duyệt trả hàng -->
+                    <!-- Cập nhật thôn tin -->
+                    <div class="content_tab-list-item ">
+                        <div class="content-header m-bottom">
+                            <h4>Cập nhật thông tin tài khoản</h4>
+                        </div>
+                        <div class="">
+                            <div class="form-group">
+                                <div class="icon_img">
+                                    <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" alt="">
+                                    <input type="file" accept=".jpg, .png" multiple />
+                                </div>
+                                    <form class="">
+                                        
+                                        <div class="form-group-list m-bottom">
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">Họ và Tên</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Họ và Tên" required>
+                                            </div>
+                                            <div class="form-group-list-item m-right ">
+                                                <label for="validationDefault01" class="form-label">Số điện thoại</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Số điện thoại" required>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="form-group-list m-bottom">
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">Email</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Email" required>
+                                            </div>
+                                            <div class="form-group-list-item m-right ">
+                                                <label for="validationDefault01" class="form-label">Địa chỉ</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Địa chỉ" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group-list m-bottom">
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">CCCD/CMND</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="CCCD/CMND" required>
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                    
+                            </div>
+                            
+                            <div class="btn-Shared">
+                                <button >Cập nhật</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Yêu cầu trả hàng -->
                     <div class="content_tab-list-item ">
                         <div class="">
                             <div class="form-group">
@@ -232,30 +257,27 @@
                                                 <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập tên..." required>
                                             </div>
                                             <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Mã sản phảm</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã sản phẩm..." required>
+                                                <label for="validationDefault01" class="form-label">Tên đại lý</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập tên đại lý..." required>
                                             </div>
                                             
-                                        </div>
-                                        <div class="form-group-list m-bottom">
-                                            <div class="form-group-list-item m-right">
-                                                <label for="validationDefault01" class="form-label">Mã yêu cầu</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã yêu cầu..." required>
-                                            </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Mã trạng thái</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập mã trạng thái..." required>
-                                            </div>
                                         </div>
                                         <div class="form-group-list m-bottom">
                                             <div class="form-group-list-item m-right">
                                                 <label for="validationDefault01" class="form-label">Số lượng</label>
                                                 <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập số lượng..." required>
                                             </div>
-                                            <div class="form-group-list-item m-right ">
-                                                <label for="validationDefault01" class="form-label">Ghi chú</label>
-                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập ghi chú..." required>
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">Đơn giá</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập đơn giá..." required>
                                             </div>
+                                        </div>
+                                        <div class="form-group-list m-bottom">
+                                            <div class="form-group-list-item m-right">
+                                                <label for="validationDefault01" class="form-label">lý do</label>
+                                                <input type="text" class="form-control form-input-width " id="validationDefault01" placeholder="Nhập đơn giá..." required>
+                                            </div>
+                                            
                                         </div>
                                     </form>
                                     
@@ -268,182 +290,11 @@
                                     
                                 </div>
                             </div>
-                            <div class="scrollbar" id="style-1" >
-
-                                <table class="table scroll_table">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">MÃ SẢN PHẨM</th>                           
-                                            <th scope="col">TÊN SẢN PHẨM</th>
-                                            <th scope="col">MÃ YÊU CẦU</th>
-                                            <th scope="col">MÃ TRẠNG THÁI</th>
-                                            <th scope="col">SỐ LƯỢNG</th>
-                                            <th scope="col">GI CHÚ</th>
-                                            <th scope="col">TRẠNG THÁI</th>
-                                            <th scope="col">THAO TÁC</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">H001</th>
-                                            <td>Bột giặt Omo</td>
-                                            <td>YC001</td>
-                                            <td>TTC01</td>
-                                            <td>300</td>
-                                            <td>Hàng giao sai mẫu mã</td>
-                                            <td>Chờ duyệt</td>
-                                            <td class="d-flex">
-                                                <div class="btn-confirma">
-                                                    <button >Xác nhận</button>
-                                                </div>
-                                                <div class="btn-cancel">
-                                                    <button >Hủy</button>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-    
+                                <div class="btn-Shared" >
+                                    <button>Trả hàng</button>
+                                </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
