@@ -63,7 +63,9 @@
 .distance{
     margin-right: 20px;
 }
-
+.width-select{
+    width: 830px;
+}
 .border_bottom{
     border-bottom: 1px solid #848987;
 }
